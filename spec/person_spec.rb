@@ -135,8 +135,7 @@ RSpec.describe 'Person' do
     end
 
     describe '#take_bath' do
-      it 'makes the person cleaner by 4 points' do
-        penelope.hygiene = 4
+      it 'makes the person cleaner by 4 points' do        penelope.hygiene = 4
         penelope.take_bath
         expect(penelope.hygiene).to eq(8)
       end
